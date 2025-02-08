@@ -1,10 +1,10 @@
-RAG_final: Retrieval-Augmented Generation (RAG) Implementation
+# RAG_final: Retrieval-Augmented Generation (RAG) Implementation
 
-Overview
+### Overview
 
 This project implements a Retrieval-Augmented Generation (RAG) pipeline, combining the strengths of retrieval-based and generative AI models. The system enhances text generation by incorporating relevant external knowledge retrieved from a predefined dataset.
 
-Features
+### Features
 
 Implements a retrieval mechanism to fetch relevant context for text generation.
 
@@ -14,7 +14,7 @@ Optimized for handling domain-specific queries with enhanced accuracy.
 
 Jupyter Notebook (RAG_final.ipynb) provides step-by-step execution.
 
-Installation
+### Installation
 
 To run the project, ensure you have the following dependencies installed:
 
@@ -24,7 +24,7 @@ If a requirements.txt file is not available, install the essential libraries:
 
 pip install transformers torch faiss-cpu sentence-transformers
 
-Usage
+### Usage
 
 Open the Jupyter Notebook:
 
@@ -34,7 +34,7 @@ Run the cells step by step to execute the retrieval and generation pipeline.
 
 Modify the query input to test different retrieval and generation outputs.
 
-Dependencies
+### Dependencies
 
 Python 3.x
 
@@ -46,7 +46,7 @@ faiss-cpu for efficient similarity search
 
 sentence-transformers for embeddings
 
-File Structure
+### File Structure
 
 RAG_final.ipynb - Main Jupyter Notebook implementing RAG.
 
@@ -54,7 +54,7 @@ data/ - Directory containing any relevant dataset files (if applicable).
 
 models/ - Pre-trained model storage (if applicable).
 
-Contributing
+### Contributing
 
 If you want to contribute:
 
@@ -66,11 +66,11 @@ Commit your changes.
 
 Push to your fork and submit a pull request.
 
-License
+### License
 
 This project is licensed under the MIT License. See LICENSE for more details.
 
-Acknowledgments
+### Acknowledgments
 
 Hugging Face for transformer models.
 
